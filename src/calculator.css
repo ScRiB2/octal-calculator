@@ -1,0 +1,44 @@
+:root {
+    --small-padding: 4px;
+    --input-width: 90px;
+}
+
+.calculator {
+    width: 400px;
+}
+
+input {
+    padding: 30px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    width: var(--input-width);
+    background-color: #2f3332;
+    border: none;
+    outline: none;
+    border-radius: var(--small-padding);
+}
+
+.sign:not(:last-child) {
+    margin-right: 4px;
+}
+
+.btn:hover {
+    background-color: #6e6a6a;
+}
+
+.result {
+    width: calc(3 * var(--input-width) + 2 * var(--small-padding));
+}
+
+.row {
+    margin-bottom: var(--small-padding);
+}
+
+.clear {
+    background-color: #ff3300;
+}
+
+.actions {
+    margin-left: calc(var(--input-width) + var(--small-padding));
+}

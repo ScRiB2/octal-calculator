@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Octal calculator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="src/reset.css" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <link rel="stylesheet" type="text/css" href="src/calculator.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Octal calculator</h1>
+
+            <div class="calculator">
+
+                <div class="row">
+                    <input type="text" class="result" id="result" placeholder="Result" readonly />
+                    <input type="button" class="btn clear" value="C" id="clear" />
+                </div>
+
+                <div id="signs"></div>
+
+                <div class="actions">
+                    <input type="button" value="+" class="btn" id="plus" />
+                    <input type="button" value="=" class="btn" id="eval" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="src/main.js"></script>
+</body>
+</html>
